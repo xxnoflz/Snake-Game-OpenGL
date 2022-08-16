@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Snake Game">
+      <UniqueIdentifier>{138088f0-65e9-43a8-995e-38e96aaf7fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake Game\Utilities">
+      <UniqueIdentifier>{dc2dac3a-4288-4726-a9fb-519bb7ecc77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake Game\vendor">
+      <UniqueIdentifier>{da8037bb-c6dd-45c9-85bf-c12d168683e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake Game\Render">
+      <UniqueIdentifier>{dfe023e6-3c41-4610-9d7e-2058826f518b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake Game\Objects">
+      <UniqueIdentifier>{4bd67831-ac39-4a21-98af-251073603649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake Game\Shaders">
+      <UniqueIdentifier>{36b025ab-e5f3-461a-ad85-63d0615135b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Snake Game.cpp">
+      <Filter>Source Files\Snake Game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\vendor\glad.c">
+      <Filter>Source Files\Snake Game\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Utilities\Shader.cpp">
+      <Filter>Source Files\Snake Game\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Utilities\ResourceManager.cpp">
+      <Filter>Source Files\Snake Game\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Render\CubeRenderer.cpp">
+      <Filter>Source Files\Snake Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Objects\GameObject.cpp">
+      <Filter>Source Files\Snake Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Objects\PlayerObject.cpp">
+      <Filter>Source Files\Snake Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Objects\FoodObject.cpp">
+      <Filter>Source Files\Snake Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Render\TextRenderer.cpp">
+      <Filter>Source Files\Snake Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Render\GridRenderer.cpp">
+      <Filter>Source Files\Snake Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\Utilities\Texture.cpp">
+      <Filter>Source Files\Snake Game\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Snake Game\vendor\stb_image.cpp">
+      <Filter>Source Files\Snake Game\vendor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Snake Game\Snake Game.h">
+      <Filter>Source Files\Snake Game</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Utilities\Shader.h">
+      <Filter>Source Files\Snake Game\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Utilities\ResourceManager.h">
+      <Filter>Source Files\Snake Game\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Render\CubeRenderer.h">
+      <Filter>Source Files\Snake Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Objects\GameObject.h">
+      <Filter>Source Files\Snake Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Objects\PlayerObject.h">
+      <Filter>Source Files\Snake Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Objects\FoodObject.h">
+      <Filter>Source Files\Snake Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Render\TextRenderer.h">
+      <Filter>Source Files\Snake Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Render\GridRenderer.h">
+      <Filter>Source Files\Snake Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\Utilities\Texture.h">
+      <Filter>Source Files\Snake Game\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Snake Game\vendor\stb_image.h">
+      <Filter>Source Files\Snake Game\vendor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\Snake Game\Shaders\cubeShader.vert">
+      <Filter>Source Files\Snake Game\Shaders</Filter>
+    </None>
+    <None Include="source\Snake Game\Shaders\cubeShader.frag">
+      <Filter>Source Files\Snake Game\Shaders</Filter>
+    </None>
+    <None Include="source\Snake Game\Shaders\textShader.vert">
+      <Filter>Source Files\Snake Game\Shaders</Filter>
+    </None>
+    <None Include="source\Snake Game\Shaders\textShader.frag">
+      <Filter>Source Files\Snake Game\Shaders</Filter>
+    </None>
+    <None Include="source\Snake Game\Shaders\gridShader.vert">
+      <Filter>Source Files\Snake Game\Shaders</Filter>
+    </None>
+    <None Include="source\Snake Game\Shaders\gridShader.frag">
+      <Filter>Source Files\Snake Game\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
